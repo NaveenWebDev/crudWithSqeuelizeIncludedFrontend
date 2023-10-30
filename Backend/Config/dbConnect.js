@@ -1,7 +1,5 @@
 const Sequelize = require("sequelize");
-const dbConnect =async ()=>{
 
-}
 const sequelize = new Sequelize('crud', 'root', 'Naveen159378', {
     host: 'localhost',
     dialect:'mysql'
